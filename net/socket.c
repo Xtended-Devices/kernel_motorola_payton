@@ -1130,7 +1130,6 @@ int __sock_create(struct net *net, int family, int type, int protocol,
 		return -EINVAL;
 
 	/* Compatibility.
-
 	   This uglymoron is moved from INET layer to here to avoid
 	   deadlock in module load.
 	 */
